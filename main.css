@@ -1,0 +1,125 @@
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background: #f5f5f5;
+    color: #333;
+}
+
+header {
+    background: #111;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    border-radius: 8px;
+}
+
+header .logo img {
+    height: 50px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+}
+
+nav ul li a:hover {
+    background: #575757;
+}
+
+main {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+}
+
+#highlight {
+    text-align: center;
+    color: white;
+    margin-bottom: 20px;
+}
+
+#highlight img {
+    width: 25%;
+    height: 25%;
+    border-radius: 8px;
+}
+
+.highlight-text {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.highlight-text h1 {
+    margin-bottom: 20px;
+    font-size: 2.5rem;
+}
+
+.highlight-text button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: #fff;
+    background: #e63946;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.highlight-text button:hover {
+    background: #d62828;
+}
+
+section {
+    margin-bottom: 2rem;
+    padding: 1.5rem;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+section#home article {
+    margin-bottom: 1rem;
+}
+
+article h2, section h2 {
+    margin-bottom: 1rem;
+    color: #333;
+    font-size: 1.8rem;
+}
+
+article img {
+    max-width: 20%;
+    height: 20%;
+    display: block;
+    margin-bottom: 1rem;
+    border-radius: 8px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+footer {
+    background: #111;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    border-radius: 8px;
+    margin-top: 20px;
+}
